@@ -1,0 +1,12 @@
+<%@ page pageEncoding="UTF-8" %>
+</main>
+<footer class="site-footer">
+    <div class="wrap">
+        <%-- Komentarz JSP: nie trafia do kodu HTML wysłanego do przeglądarki. --%>
+        <!-- Komentarz HTML: widoczny w źródle strony. -->
+        <span>AstroDziennik · projekt MVC</span>
+        <span>Dodane w tej sesji: ${empty sessionScope.addedCount ? 0 : sessionScope.addedCount}</span>
+    </div>
+</footer>
+</body>
+</html>
